@@ -1,2 +1,32 @@
-# API-Issues
-API Issues of BitBrowser
+<header class="max-w-3xl page-width-wide:max-w-screen-2xl mx-auto mb-6 space-y-3 page-api-block:ml-0 page-api-block:max-w-full page-has-ancestors" style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);border:0px solid oklch(0.928 0.006 264.531);box-sizing:border-box;color:rgb(28, 29, 32);font-family:Roboto, &quot;Roboto Fallback&quot;, system-ui, arial;font-size:medium;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin-inline:auto;margin:0px 0px 24px;max-width:48rem;orphans:2;padding:0px;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">
+    <h1 class="text-4xl font-bold flex items-center gap-4 grow text-pretty clear-right xs:clear-none" style="--tw-font-weight:700;--tw-space-y-reverse:0;--tw-tracking:-.025em;align-items:center;border:0px solid oklch(0.928 0.006 264.531);box-sizing:border-box;clear:none;color:rgb(28, 29, 32);display:flex;flex-grow:1;font-size:36px;gap:16px;letter-spacing:-0.025em;line-height:1.11111;margin-block:0px 12px;margin:0px;padding:0px;text-wrap:pretty;">
+        <strong>API Issues</strong>
+    </h1>
+    <p class="text-lg text-tint clear-both" style="border:0px solid oklch(0.928 0.006 264.531);box-sizing:border-box;clear:both;color:rgb(103, 110, 124);font-size:18px;line-height:1.55556;margin:0px;padding:0px;">
+        Local Api common problems and precautions.
+    </p>
+</header>
+<div class="grid [&amp;&gt;*+*]:mt-5 whitespace-pre-wrap" style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);border:0px solid oklch(0.928 0.006 264.531);box-sizing:border-box;color:rgb(28, 29, 32);display:grid;font-family:Roboto, &quot;Roboto Fallback&quot;, system-ui, arial;font-size:medium;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;padding:0px;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;">
+    <div class="relative hash grid grid-area-1-1 h-[1em] border-0 opacity-0 group-hover/hash:opacity-[0] group-focus/hash:opacity-[0] md:group-hover/hash:opacity-[1] md:group-focus/hash:opacity-[1] -ml-6 pr-2" style="border:0px solid oklch(0.928 0.006 264.531);box-sizing:border-box;display:grid;grid-area:1 / 1;height:1em;margin:0px 0px 0px -24px;opacity:0;padding:0px 8px 0px 0px;position:relative;">
+        <a class="inline-flex h-full items-start leading-snug" style="--tw-leading:1.375;align-items:flex-start;border:0px solid oklch(0.928 0.006 264.531);box-sizing:border-box;color:inherit;display:inline-flex;height:24px;line-height:1.375;margin:0px;padding:0px;text-decoration:inherit;" target="_blank" rel="noopener noreferrer" href="https://doc.bitbrowser.net/api-docs/api-issues#please-standardize-the-use-of-api-parameters" aria-label="Direct link to heading"><strong><svg class="gb-icon self-center transition-colors text-transparent group-hover/hash:text-tint-subtle contrast-more:group-hover/hash:text-tint-strong size-4" style="mask-image:url(&quot;https://ka-p.fontawesome.com/releases/v6.6.0/svgs/regular/hashtag.svg?v=2&amp;token=a463935e93&quot;);mask-position:center center;mask-repeat:no-repeat;"></svg></strong></a>
+    </div>
+    <h3>
+        <strong>Please standardize the use of api parameters.</strong>
+    </h3>
+    <p class="mx-auto page-width-wide:mx-0 w-full decoration-primary/6 print:break-inside-avoid max-w-3xl page-api-block:ml-0 text-start justify-self-start" style="border:0px solid oklch(0.928 0.006 264.531);box-sizing:border-box;justify-self:flex-start;margin-inline:auto;margin:20px 0px 0px;max-width:48rem;padding:0px;text-align:start;text-decoration-color:oklab(0.537312 -0.0113147 -0.117186 / 0.4);width:768px;">
+        Please note that when using Local Api to create or modify browsers or other operations, the interface parameters must conform to the specification, and do not pass values or types with unknown meanings.
+    </p>
+    <div class="relative hash grid grid-area-1-1 h-[1em] border-0 opacity-0 group-hover/hash:opacity-[0] group-focus/hash:opacity-[0] md:group-hover/hash:opacity-[1] md:group-focus/hash:opacity-[1] -ml-6 pr-2" style="border:0px solid oklch(0.928 0.006 264.531);box-sizing:border-box;display:grid;grid-area:1 / 1;height:1em;margin:0px 0px 0px -24px;opacity:0;padding:0px 8px 0px 0px;position:relative;">
+        <a class="inline-flex h-full items-start leading-snug" style="--tw-leading:1.375;align-items:flex-start;border:0px solid oklch(0.928 0.006 264.531);box-sizing:border-box;color:inherit;display:inline-flex;height:24px;line-height:1.375;margin:0px;padding:0px;text-decoration:inherit;" target="_blank" rel="noopener noreferrer" href="https://doc.bitbrowser.net/api-docs/api-issues#the-format-of-the-passed-parameter-is-incorrect" aria-label="Direct link to heading"><strong><svg class="gb-icon self-center transition-colors text-transparent group-hover/hash:text-tint-subtle contrast-more:group-hover/hash:text-tint-strong size-4" style="mask-image:url(&quot;https://ka-p.fontawesome.com/releases/v6.6.0/svgs/regular/hashtag.svg?v=2&amp;token=a463935e93&quot;);mask-position:center center;mask-repeat:no-repeat;"></svg></strong></a>
+    </div>
+    <h3>
+        <strong>The format of the passed parameter is incorrect.</strong>
+    </h3>
+    <p class="mx-auto page-width-wide:mx-0 w-full decoration-primary/6 print:break-inside-avoid max-w-3xl page-api-block:ml-0 text-start justify-self-start" style="border:0px solid oklch(0.928 0.006 264.531);box-sizing:border-box;justify-self:flex-start;margin-inline:auto;margin:20px 0px 0px;max-width:48rem;padding:0px;text-align:start;text-decoration-color:oklab(0.537312 -0.0113147 -0.117186 / 0.4);width:768px;">
+        The request params type is ResponseBody, donot take url params, formdata or string types. It is recommended to use the postman debugging interface like this:<br>
+        About BitBrowser：<a target="_blank" rel="noopener noreferrer" href="https://doc.bitbrowser.net/api-docs/api-issues">https://doc.bitbrowser.net/api-docs/api-issues</a>
+    </p>
+    <figure class="image image_resized" style="width:59.74%;">
+        <img alt="1755852147582.jpg" src="https://img-website.bitbrowser.net/uploads/1755852147582_09f99547c9.jpg" srcset="https://img-website.bitbrowser.net/uploads/thumbnail_1755852147582_09f99547c9.jpg 175w, https://img-website.bitbrowser.net/uploads/small_1755852147582_09f99547c9.jpg 500w, https://img-website.bitbrowser.net/uploads/medium_1755852147582_09f99547c9.jpg 750w" sizes="100vw" width="750">
+    </figure>
+</div>
