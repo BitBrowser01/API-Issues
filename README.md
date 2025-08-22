@@ -5,6 +5,7 @@
     <p class="text-lg text-tint clear-both" style="border:0px solid oklch(0.928 0.006 264.531);box-sizing:border-box;clear:both;color:rgb(103, 110, 124);font-size:18px;line-height:1.55556;margin:0px;padding:0px;">
         Local Api common problems and precautions.
     </p>
+<span style="color:hsl(0, 0%, 0%);"><strong>Learn More BitBrowser API：</strong></span><a target="_blank" rel="noopener noreferrer" href="https://doc.bitbrowser.net/api-docs/example-of-interface-request-parameters">https://doc.bitbrowser.net/</a>
 </header>
 <div class="grid [&amp;&gt;*+*]:mt-5 whitespace-pre-wrap" style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);border:0px solid oklch(0.928 0.006 264.531);box-sizing:border-box;color:rgb(28, 29, 32);display:grid;font-family:Roboto, &quot;Roboto Fallback&quot;, system-ui, arial;font-size:medium;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin:0px;orphans:2;padding:0px;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:pre-wrap;widows:2;word-spacing:0px;">
     <div class="relative hash grid grid-area-1-1 h-[1em] border-0 opacity-0 group-hover/hash:opacity-[0] group-focus/hash:opacity-[0] md:group-hover/hash:opacity-[1] md:group-focus/hash:opacity-[1] -ml-6 pr-2" style="border:0px solid oklch(0.928 0.006 264.531);box-sizing:border-box;display:grid;grid-area:1 / 1;height:1em;margin:0px 0px 0px -24px;opacity:0;padding:0px 8px 0px 0px;position:relative;">
@@ -30,3 +31,4 @@
         <img alt="1755852147582.jpg" src="https://img-website.bitbrowser.net/uploads/1755852147582_09f99547c9.jpg" srcset="https://img-website.bitbrowser.net/uploads/thumbnail_1755852147582_09f99547c9.jpg 175w, https://img-website.bitbrowser.net/uploads/small_1755852147582_09f99547c9.jpg 500w, https://img-website.bitbrowser.net/uploads/medium_1755852147582_09f99547c9.jpg 750w" sizes="100vw" width="750">
     </figure>
 </div>
+<span style="color:hsl(0, 0%, 0%);"><strong>Learn More BitBrowser API：</strong></span><a target="_blank" rel="noopener noreferrer" href="https://doc.bitbrowser.net/api-docs/example-of-interface-request-parameters">https://doc.bitbrowser.net/</a>
